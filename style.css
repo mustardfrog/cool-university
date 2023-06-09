@@ -1,0 +1,187 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero section */
+#hero {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About section */
+#about {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Programs section */
+#programs {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.programs-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.programs-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.programs-content ul {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+/* Admissions section */
+#admissions {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.admissions-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.admissions-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.admissions-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Contact section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
